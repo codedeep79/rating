@@ -44,10 +44,10 @@ public class StarImageRenderer extends AbstractImageRatingRenderer {
         }
 
         try {
-            imageFocusedMarked = ImageIO.read(load("/com/nth/swing/Rating/resources/mark-focus" + urlSize + ".png"));
-            imageFocused = ImageIO.read(load("/com/nth/swing/Rating/resources/focus" + urlSize + ".png"));
-            imageMarked = ImageIO.read(load("/com/nth/swing/Rating/resources/mark" + urlSize + ".png"));
-            image = ImageIO.read(load("/com/nth/swing/Rating/resources/" + urlSize + ".png"));
+            imageFocusedMarked = ImageIO.read(load("/com/nth/rating/resources/mark-focus" + urlSize + ".png"));
+            imageFocused = ImageIO.read(load("/com/nth/rating/resources/focus" + urlSize + ".png"));
+            imageMarked = ImageIO.read(load("/com/nth/rating/resources/mark" + urlSize + ".png"));
+            image = ImageIO.read(load("/com/nth/rating/resources/" + urlSize + ".png"));
         } catch (IOException e) {
         }
     }
